@@ -13,12 +13,12 @@
   width: 305px;
   height: 305px;
   transition: 0.5s;
+
   &:hover {
     box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
   }
 
   @include media-mobile {
-    width: 278px;
     display: block;
   }
 }

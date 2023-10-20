@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   gap: 25px;
-  margin: 6rem 0;
+  margin: 5rem 0;
 
   @include media-mobile {
-    gap: 1.3rem;
+    gap: 5px;
   }
 }
 
@@ -41,6 +41,7 @@
   @include media-mobile {
     width: 25px;
     height: 25px;
+    margin-bottom: 46px;
   }
 }
 
@@ -51,11 +52,16 @@
 }
 
 .carousel_text {
-  margin-top: 10px;
+  @include font($size: 1.5rem);
+  margin-top: 14px;
 }
 
 .carousel__img {
   flex: 0 0 50%;
+
+  @include media-mobile {
+    flex: 0 0 100%;
+  }
 }
 
 .arrow {
