@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: $content-width;
+  margin: auto;
+
+  @include media-mobile {
+    margin: 0px 20px;
+  }
+}
+
+.wrapper_padding {
+  padding: 5rem 0;
+}
+
+.wrapper_small {
+  @include media-mobile {
+    margin: 0px 10px;
+  }
+}

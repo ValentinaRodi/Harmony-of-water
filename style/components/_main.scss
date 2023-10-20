@@ -1,0 +1,12 @@
+.main__block {
+  margin: 6rem auto 0 auto;
+  max-width: $content-width;
+}
+
+.main__text {
+  padding: 0 8rem;
+
+  @include media-mobile {
+    padding: 4rem 20px;
+  }
+}

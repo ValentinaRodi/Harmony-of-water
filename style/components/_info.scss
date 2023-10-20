@@ -1,0 +1,14 @@
+.info__text {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  @include margin($bottom: 2rem);
+
+  @include media-mobile {
+    width: 100%;
+  }
+}
+
+.info__link {
+  text-align: center;
+}

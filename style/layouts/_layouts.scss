@@ -1,0 +1,16 @@
+.text_margin {
+  @include margin();
+}
+
+.text_center {
+  text-align: center;
+}
+
+.layout-2-column {
+  display: flex;
+  align-items: center;
+
+  @include media-mobile {
+    flex-wrap: wrap;
+  }
+}

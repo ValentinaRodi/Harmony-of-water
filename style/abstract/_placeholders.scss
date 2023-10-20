@@ -1,0 +1,22 @@
+%transition {
+  transition: all 0.2s ease-out;
+}
+
+@font-face {
+  font-family: "Baskerville";
+  src: local("Baskerville"), url("../../fonts/Baskerville_Display_PT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova"),
+    url("../../fonts/Proxima_Nova_regular.ttf") format("truetype");
+}
+
+%font-title {
+  font-family: "Baskerville", sans-serif;
+}
+
+%font-prim {
+  font-family: "Proxima Nova", sans-serif;
+}

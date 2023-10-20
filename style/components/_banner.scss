@@ -1,0 +1,11 @@
+.banner {
+  max-height: 550px;
+
+  max-width: $content-width;
+  margin: auto;
+
+  @include media-mobile {
+    margin: 0;
+    height: 145px;
+  }
+}
